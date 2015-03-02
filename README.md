@@ -18,9 +18,9 @@
 ## install plugins 
     1. Scala 
 ## Hello Wolrd
-1. set up Scala Non-SBT project 
-2. import spark-assembly-1.2.1-hadoop2.4.0 (in pre-built spark/ lib/)
-3.  build and make artifacts 
-4. insert code 
-    [code] val conf = new SparkConf().setAppName("Spark Pi").setMaster("spark://TheOne:7077").setJars(List("out/artifacts/untitled2_jar/untitled2.jar"))
+    1. set up Scala Non-SBT project 
+    2. import spark-assembly-1.2.1-hadoop2.4.0 (in pre-built spark/ lib/)
+    3.  build and make artifacts 
+    4. insert code 
+        -  val conf = new SparkConf().setAppName("Spark Pi").setMaster("spark://TheOne:7077").setJars(List("out/artifacts/untitled2_jar/untitled2.jar"))
 
